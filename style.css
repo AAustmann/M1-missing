@@ -1,0 +1,75 @@
+body {
+    border: 10px solid black;
+    border-bottom: none;
+    background-color: aliceblue;
+    font-family: 'Bradley Hand ITC';
+    width: 500px;
+    height: 650px;
+    padding: 16px;
+    padding-bottom: 0;
+}
+h1{
+    font-size: 40px;
+    margin-top: 16px;
+    margin-bottom: none;
+    text-align: center;
+}
+h2{
+    font-size: 32px;
+    text-align: center;
+    margin-top: -40px;
+}
+/* container for image and text on the side */
+.flexbox-container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+img{
+    height: 285px;
+    width: 250px;
+    margin-right: 16px;
+}
+h3{
+    font-size: 24px;
+    text-align: left;
+    margin-top: 0px;
+}
+h4{
+    font-size: 16px;
+    text-align: left;
+    justify-content: space-around;
+    margin-top: -20px;
+}
+ul{
+    font-size: 16px;
+    text-align: left;
+    justify-self: center;
+    margin-top: -20px;
+}
+h5{
+    font-size: 16px;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: -25px;
+}
+.tear-off{
+    writing-mode: vertical-rl; /* made the text vertical right to left */
+    transform: scale(-1,-1); /* scale it to make the text in the right order */
+}
+.tear{
+    text-align: left;
+}
+.vl{ /* lines that divide the tear of pieces of the poster */
+    height: 100px;
+    width: 4px;
+    background-color: gray;
+    transform: translateX(-0%);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    position: relative;
+    align-items: bottom;
+}
